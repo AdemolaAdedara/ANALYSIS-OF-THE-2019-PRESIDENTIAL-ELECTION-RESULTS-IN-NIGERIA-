@@ -121,5 +121,7 @@ We imported the cleaned "2019pres" data into Power BI.
      - **Total OTHER PARTIES**:`= SUM('2019pres'[OTHER PARTIES])`
      - **Winning Party**:`= IF([Party Votes PDP] > [Party Votes APC],"PDP","APC")`
 
+---
 
+### VISUALIZATION
 
