@@ -62,7 +62,7 @@ For this project, I focused solely on the 2019 Nigerian Presidential Election re
 
 #### 1. **Data Collection**
 
-   - From the Kaggle dataset, I downloaded "2019pres" data [Nigerian Election Results (1999-2019)](https://www.kaggle.com/datasets/xibilolu/nigerian-election-results-19992019?select=2019pres.csv) .
+   - From the Kaggle dataset, I downloaded "2019pres" data [Nigerian Election Results (1999-2019)](https://www.kaggle.com/datasets/xibilolu/nigerian-election-results-19992019?select=2019pres.csv).
      
    The data included the following columns:
 
