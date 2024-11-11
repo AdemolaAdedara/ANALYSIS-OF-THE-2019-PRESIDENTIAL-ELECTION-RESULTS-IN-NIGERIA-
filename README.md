@@ -56,14 +56,15 @@ This analysis was conducted using the following tools:
 
 ---
 
-For this project, we focused solely on the 2019 Nigerian Presidential Election results from the dataset found on Kaggle:[Nigerian Election Results (1999-2019)](https://www.kaggle.com/datasets/xibilolu/nigerian-election-results-19992019?select=2019pres.csv). Below is the step-by-step breakdown of the analysis process.
+For this project, I focused solely on the 2019 Nigerian Presidential Election results from the dataset found on Kaggle:[Nigerian Election Results (1999-2019)](https://www.kaggle.com/datasets/xibilolu/nigerian-election-results-19992019?select=2019pres.csv). Below is the step-by-step breakdown of the analysis process.
 
 ---
 
 #### 1. **Data Collection**
 
-   - From the Kaggle dataset, I downloaded "2019pres" data.
-    The data included the following columns:
+   - From the Kaggle dataset, I downloaded "2019pres" data [Nigerian Election Results (1999-2019)](https://www.kaggle.com/datasets/xibilolu/nigerian-election-results-19992019?select=2019pres.csv) .
+     
+   The data included the following columns:
 
      - States
     
@@ -97,9 +98,9 @@ For this project, we focused solely on the 2019 Nigerian Presidential Election r
 
 #### 3. **Data Loading into Power BI**
 
-We imported the cleaned "2019pres" data into Power BI.
+I imported the cleaned "2019pres" data into Power BI.
      
-   - Using **Power Query**, we created an additional calculated column for specific metrics:
+   - Using **Power Query**, I created an additional calculated column for specific metric:
      
      - **Voter Turnout Percentage** per state: `[TOTAL VOTES]/ [REGISTERED VOTERS]`
 
@@ -107,9 +108,9 @@ We imported the cleaned "2019pres" data into Power BI.
 
 #### 4. **Data Transformation**
 
-   - **Aggregation**: We aggregated the data to compute totals for votes, winning party per state, and overall national statistics.
+   - **Aggregation**: I aggregated the data to compute totals for votes, winning party per state, and overall national statistics.
      
-   - **Calculated Metrics**: We created new measures to visualize the following:
+   - **Calculated Metrics**: I created new measures to visualize the following:
      
      - **Party Votes APC**: `= COUNTROWS(FILTER('2019pres', '2019pres'[WINNER] = "APC"))`
      - **Party Votes PDP**: `= COUNTROWS(FILTER('2019pres', '2019pres'[WINNER] = "PDP"))`
