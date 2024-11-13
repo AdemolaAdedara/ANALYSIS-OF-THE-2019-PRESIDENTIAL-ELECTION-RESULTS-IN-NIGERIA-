@@ -20,6 +20,8 @@
 
  - [RECOMMENDATIONS ](#recommendations)
 
+---
+
 ### PROJECT OVERVIEW
 
 ---
