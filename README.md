@@ -170,7 +170,7 @@ This Power BI report includes the following visuals:
 
 Based on my Power BI analysis of the 2019 Nigerian Presidential Election results, I derived the following key insights from the visuals created.
 
-#### 1. **Total Registered Votes**
+#### 1. **Total Registered Voters**
 
    - The total number of registered voters varied significantly by state, with the highest numbers in regions such as Lagos and Kano.
    - States with larger populations generally had a higher number of registered voters, reflecting population distribution trends across Nigeria.
