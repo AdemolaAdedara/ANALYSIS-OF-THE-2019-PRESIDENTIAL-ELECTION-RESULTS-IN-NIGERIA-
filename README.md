@@ -4,21 +4,21 @@
 
 ### Table of Contents
 
-1. [PROJECT OVERVIEW](#project-overview)
+[PROJECT OVERVIEW](#project-overview)
 
-2. [DATA SOURCE](#data-source)
+[DATA SOURCE](#data-source)
 
-3. [INSTALLATIONS](#installations)
+[INSTALLATIONS](#installations)
 
-4. [TOOLS USED](#tools-used)
+[TOOLS USED](#tools-used)
 
-5. [ANALYSIS PROCESS](#analysis-process)
+[ANALYSIS PROCESS](#analysis-process)
 
-6. [VISUALIZATION ](#visualization)
+[VISUALIZATION ](#visualization)
 
-7. [RESULTS AND INSIGHTS](#results-and-insights)
+[RESULTS AND INSIGHTS](#results-and-insights)
 
-8. [RECOMMENDATIONS ](#recommendations)
+[RECOMMENDATIONS ](#recommendations)
 
 ### PROJECT OVERVIEW
 
