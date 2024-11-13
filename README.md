@@ -6,19 +6,19 @@
 
 1. [PROJECT OVERVIEW](#project-overview)
 
-2. [Data Sources](#data-sources)
+2. [DATA SOURCE](#data-source)
 
-3. [Installations](#installations)
+3. [INSTALLATIONS](#installations)
 
-4. [Tools Used](#tools-used)
+4. [TOOLS USED](#tools-used)
 
-5. [Analysis Process](#analysis-process)
+5. [ANALYSIS PROCESS](#analysis-process)
 
-6. [Visualization](#visualization)
+6. [VISUALIZATION ](#visualization)
 
-7. [Results and Insights](#results-and-insights)
+7. [RESULTS AND INSIGHTS](#results-and-insights)
 
-8. [Recommendations](#recommendations)
+8. [RECOMMENDATIONS ](#recommendations)
 
 ### PROJECT OVERVIEW
 
@@ -28,7 +28,7 @@ This project aims to analyze and visualize the 2019 Presidential Election result
 
 ---
 
-### DATA SOURCES 
+### DATA SOURCE
 
 ---
 
