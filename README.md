@@ -4,6 +4,8 @@
 
 ### TABLE OF CONTENTS
 
+---
+
  - [PROJECT OVERVIEW](#project-overview)
 
  - [DATA SOURCE](#data-source)
