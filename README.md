@@ -4,21 +4,21 @@
 
 ### Table of Contents
 
-[PROJECT OVERVIEW](#project-overview)
+ - [PROJECT OVERVIEW](#project-overview)
 
-[DATA SOURCE](#data-source)
+ - [DATA SOURCE](#data-source)
 
-[INSTALLATIONS](#installations)
+ - [INSTALLATIONS](#installations)
 
-[TOOLS USED](#tools-used)
+ - [TOOLS USED](#tools-used)
 
-[ANALYSIS PROCESS](#analysis-process)
+ - [ANALYSIS PROCESS](#analysis-process)
 
-[VISUALIZATION ](#visualization)
+ - [VISUALIZATION ](#visualization)
 
-[RESULTS AND INSIGHTS](#results-and-insights)
+ - [RESULTS AND INSIGHTS](#results-and-insights)
 
-[RECOMMENDATIONS ](#recommendations)
+ - [RECOMMENDATIONS ](#recommendations)
 
 ### PROJECT OVERVIEW
 
