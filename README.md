@@ -100,7 +100,7 @@ For this project, I focused solely on the 2019 Nigerian Presidential Election re
 
 I imported the cleaned "2019pres" data into Power BI.
      
-   - Using **Power Query**, I created an additional calculated column for specific metric:
+   - Using **Power Query**, I created an additional calculated column for a specific metric:
      
      - **Voter Turnout Percentage** per state: `[TOTAL VOTES]/ [REGISTERED VOTERS]`
 
@@ -113,16 +113,124 @@ I imported the cleaned "2019pres" data into Power BI.
    - **Calculated Metrics**: I created new measures to visualize the following:
      
      - **Party Votes APC**: `= COUNTROWS(FILTER('2019pres', '2019pres'[WINNER] = "APC"))`
+       
      - **Party Votes PDP**: `= COUNTROWS(FILTER('2019pres', '2019pres'[WINNER] = "PDP"))`
+       
      - **Total ADC Votes**: `= SUM('2019pres'[ADC])`
+       
      - **Total PDP Votes**: `= SUM('2019pres'[PDP])`
+       
      - **Total APC Votes**: `= SUM('2019pres'[APC])`
+       
      - **Total PCP Votes**: `= SUM('2019pres'[PCP])`
+       
      - **Total APGA Votes**:`= SUM('2019pres'[APGA])`
+       
      - **Total OTHER PARTIES**:`= SUM('2019pres'[OTHER PARTIES])`
+       
      - **Winning Party**:`= IF([Party Votes PDP] > [Party Votes APC],"PDP","APC")`
 
 ---
 
 ### VISUALIZATION
+
+---
+
+This Power BI report includes the following visuals:
+
+<img width="595" alt="power bi project 1" src="https://github.com/user-attachments/assets/e4d6cb5e-74e4-42ce-9e90-e9ec40504d03"> 
+
+<img width="604" alt="power bi project 2" src="https://github.com/user-attachments/assets/ac05d8c3-65ed-4482-920c-0b081900abfc">
+
+<img width="479" alt="power bi project 3" src="https://github.com/user-attachments/assets/48c23946-774d-4c37-8b2e-fe4c71ec529a">
+
+---
+
+### RESULTS AND INSIGHTS
+
+---
+
+Based on my Power BI analysis of the 2019 Nigerian Presidential Election results, I derived the following key insights from the visuals created.
+
+#### 1. **Total Registered Votes**
+
+   - The total number of registered voters varied significantly by state, with the highest numbers in regions such as Lagos and Kano.
+   - States with larger populations generally had a higher number of registered voters, reflecting population distribution trends across Nigeria.
+
+---
+
+#### 2. **Total Accredited Votes**
+
+   - Not all registered voters were accredited to vote; there was a noticeable drop between registered voters and accredited voters in many states.
+   - States in the North Central and South West regions showed relatively higher accreditation rates, indicating active voter participation in those areas.
+
+---
+
+#### 3. **States Won by APC and PDP**
+
+   - **APC** (All Progressives Congress) won in states predominantly located in the northern and southwestern regions, showing strong support in these areas.
+     
+   - **PDP** (Peoples Democratic Party) had more success in the southeastern states, displaying a regional divide in party preferences.
+     
+   - This geographic division in party dominance reflects historical political trends and regional support bases for each party.
+
+---
+
+#### 4. **Election Winning Party**
+
+   - The overall winner of the 2019 Presidential Election was **APC**, based on a majority of states supporting the party.
+     
+   - This result aligns with the trend of APC dominance in populous regions, which likely contributed significantly to their national vote tally.
+
+---
+
+#### 5. **Total Votes of Each Party Across States**
+
+   - APC and PDP were the dominant parties across all states, with APC generally receiving higher vote counts in northern and western states.
+     
+   - Other smaller parties, including PCP, ADC, and APGA, had limited impact and only received significant votes in specific regions, underscoring the two-party dominance in Nigerian politics.
+
+---
+
+#### 6. **States’ Total Votes and Their Winners**
+
+   - In states where voter turnout was high, APC and PDP had close competition, especially in battleground states such as Osun and Ekiti.
+
+   - In some states, the winning party had a significant margin over others, highlighting strong regional loyalties and predictable voting patterns in those areas.
+
+---
+
+#### 7. **Voter Turnout Percentage by States**
+
+   - Voter turnout varied widely across states, with some southern states achieving higher turnout rates than northern ones.
+     
+   - States with higher urban populations, such as Lagos and Rivers, recorded lower turnout percentages, potentially due to logistical challenges and voter apathy.
+     
+   - Northern states had varied turnout rates, with some rural areas showing strong turnout, suggesting different levels of voter mobilization across regions.
+
+---
+
+#### 8. **Registered Votes by States**
+
+   - States with high registered voter counts did not always translate to high voter turnout or party dominance.
+     
+   - Kano and Lagos, which had the highest registered voters, showed contrasting results in voter turnout and party support, indicating that large voter bases do not always reflect the final outcomes.
+     
+   - This suggests opportunities for future voter engagement initiatives, especially in high-population states with low turnout.
+
+---
+
+#### **Overall Insights**
+
+   - The 2019 Nigerian Presidential Election results highlight clear regional divides in party dominance, with APC and PDP having distinct areas of support.
+     
+   - Voter turnout remains a critical factor influencing electoral outcomes. States with high turnout often influenced the winning party, while low-turnout regions showed weaker engagement.
+     
+   - Understanding voter behavior by region provides insights for political parties in strategizing future campaigns, focusing on states with high registered voters but historically low turnout.
+
+These insights offer a comprehensive overview of the political landscape in Nigeria as of 2019, showing regional preferences, voter engagement, and party dominance patterns that could shape future elections.
+
+---
+
+### 
 
