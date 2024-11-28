@@ -28,7 +28,7 @@
 
 ---
 
-This project aims to analyze and visualize the 2019 Presidential Election results in Nigeria. The goal is to provide insights into the election process, including voter participation, party performance, and regional distribution of votes. By examining the results in-depth, I hope to draw conclusions on the electoral trends and patterns in Nigeria.  
+This project aims to analyze and visualize the 2019 Presidential Election results in Nigeria. The goal is to provide insights into the election process, including voter participation, party performance, and states distribution of votes. By examining the results in-depth, I hope to draw conclusions on the electoral trends and patterns in Nigeria.  
 
 ---
 
